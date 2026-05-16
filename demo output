@@ -1,0 +1,296 @@
+Startup idea: AI app for restaurant management in Tier 2 cities
+
+1.Competitor
+
+You are a competitive intelligence analyst specializing in Indian markets.
+Find real competitors for the given startup idea in India.
+Be specific about real Indian companies and their actual pricing.
+Return ONLY valid JSON. No explanation. No extra text. Just JSON.
+Use this exact format:
+{
+  "competitors": [
+    {
+      "name": "<real company name>",
+      "pricing": "<their actual price in rupees>",
+      "target_customer": "<who they serve>",
+      "strength": "<what they do well>",
+      "weakness": "<what they do badly>"
+    }
+  ],
+  "saturation_level": "<low|medium|high>",
+  "saturation_explanation": "<one sentence>",
+  "market_gap": "<one sentence describing the gap nobody is filling>",
+  "differentiation_opportunity": "<one sentence on exactly how to win>"
+}
+
+output:
+{
+  "competitors": [
+    {
+      "name": "Petpooja",
+      "pricing": "₹10,000-30,000 per year per outlet plus hardware costs",
+      "target_customer": "Standalone restaurants, cafes, QSRs, and small chains across Tier 1, Tier 2, and Tier 3 Indian cities",
+      "strength": "Strong Swiggy/Zomato integrations and massive offline support network across India",
+      "weakness": "Add-on pricing, outdated UI, and limited AI-driven automation"
+    },
+    {
+      "name": "Restroworks (POSist)",
+      "pricing": "₹50,000-2,00,000+ per year per outlet depending on scale",
+      "target_customer": "Large restaurant chains and enterprise food businesses",
+      "strength": "Excellent multi-location analytics and enterprise operations management",
+      "weakness": "Too expensive and complex for small Tier 2 restaurants"
+    },
+    {
+      "name": "DotPe Rista",
+      "pricing": "Commission-based pricing with optional subscription plans",
+      "target_customer": "Delivery-first restaurants and cloud kitchens",
+      "strength": "Strong QR ordering and online payment ecosystem",
+      "weakness": "Limited deep inventory and kitchen management features"
+    },
+    {
+      "name": "LithosPOS",
+      "pricing": "Around ₹1,600 per month",
+      "target_customer": "Small and medium restaurants needing cloud POS solutions",
+      "strength": "Affordable cloud-based POS with decent inventory management",
+      "weakness": "Weak brand recall and smaller support ecosystem in Tier 2 cities"
+    },
+    {
+      "name": "Bhojan Setu",
+      "pricing": "₹100 per month with 3 months free trial",
+      "target_customer": "Small cafes and local food outlets in India",
+      "strength": "Very affordable pricing and simple onboarding",
+      "weakness": "Limited advanced analytics and AI capabilities"
+    }
+  ],
+  "saturation_level": "high",
+  "saturation_explanation": "India already has multiple established restaurant POS and management platforms competing aggressively on pricing and integrations.",
+  "market_gap": "Most competitors still lack affordable AI-powered automation, multilingual workflows, and WhatsApp-native operations tailored for Tier 2 restaurant owners.",
+  "differentiation_opportunity": "Win by offering AI-driven inventory prediction, Hindi/Telugu voice support, WhatsApp CRM, and ultra-low-cost subscriptions under ₹1500/month for Tier 2 cities."
+}
+
+2.heatmap:
+You are an India market demand analyst.
+For the given startup idea, estimate demand levels across major Indian cities and states.
+Base this on population density, digital adoption, income levels, and industry presence.
+Return ONLY valid JSON. No explanation. No extra text. Just JSON.
+
+Use this exact format:
+{
+  "city_demand": [
+    {"city": "Hyderabad", "state": "Telangana", "demand_score": 87, "reason": "<one sentence>"},
+    {"city": "Bangalore", "state": "Karnataka", "demand_score": 92, "reason": "<one sentence>"},
+    {"city": "Mumbai", "state": "Maharashtra", "demand_score": 89, "reason": "<one sentence>"},
+    {"city": "Delhi", "state": "Delhi", "demand_score": 85, "reason": "<one sentence>"},
+    {"city": "Chennai", "state": "Tamil Nadu", "demand_score": 78, "reason": "<one sentence>"},
+    {"city": "Pune", "state": "Maharashtra", "demand_score": 82, "reason": "<one sentence>"},
+    {"city": "Ahmedabad", "state": "Gujarat", "demand_score": 74, "reason": "<one sentence>"},
+    {"city": "Jaipur", "state": "Rajasthan", "demand_score": 65, "reason": "<one sentence>"},
+    {"city": "Lucknow", "state": "Uttar Pradesh", "demand_score": 61, "reason": "<one sentence>"},
+    {"city": "Visakhapatnam", "state": "Andhra Pradesh", "demand_score": 58, "reason": "<one sentence>"}
+  ],
+  "top_launch_city": "<city name>",
+  "top_launch_reason": "<one sentence why this city first>",
+  "tier2_opportunity": "<one sentence about Tier 2 city potential>"
+}
+ output:
+ {
+  "city_demand": [
+    {
+      "city": "Hyderabad",
+      "state": "Telangana",
+      "demand_score": 88,
+      "reason": "Rapid restaurant expansion, strong digital payment adoption, and growing cloud kitchen presence increase demand for AI restaurant tools."
+    },
+    {
+      "city": "Bangalore",
+      "state": "Karnataka",
+      "demand_score": 93,
+      "reason": "India's strongest startup and food-tech ecosystem creates very high adoption potential for AI-driven restaurant management."
+    },
+    {
+      "city": "Mumbai",
+      "state": "Maharashtra",
+      "demand_score": 90,
+      "reason": "High restaurant density and premium food businesses drive strong demand for operational automation."
+    },
+    {
+      "city": "Delhi",
+      "state": "Delhi",
+      "demand_score": 86,
+      "reason": "Large number of QSRs, cafes, and delivery-first restaurants actively seek efficiency and customer retention tools."
+    },
+    {
+      "city": "Chennai",
+      "state": "Tamil Nadu",
+      "demand_score": 79,
+      "reason": "Growing organized restaurant market and increasing POS adoption support moderate-to-high demand."
+    },
+    {
+      "city": "Pune",
+      "state": "Maharashtra",
+      "demand_score": 83,
+      "reason": "Young working population and expanding cafe culture create strong SaaS adoption opportunities."
+    },
+    {
+      "city": "Ahmedabad",
+      "state": "Gujarat",
+      "demand_score": 75,
+      "reason": "Fast-growing food business ecosystem and cost-conscious restaurant owners favor affordable automation platforms."
+    },
+    {
+      "city": "Jaipur",
+      "state": "Rajasthan",
+      "demand_score": 68,
+      "reason": "Tourism-driven restaurant growth and rising digital payments increase interest in restaurant software."
+    },
+    {
+      "city": "Lucknow",
+      "state": "Uttar Pradesh",
+      "demand_score": 64,
+      "reason": "Emerging restaurant chains and growing online food delivery usage support increasing demand."
+    },
+    {
+      "city": "Visakhapatnam",
+      "state": "Andhra Pradesh",
+      "demand_score": 61,
+      "reason": "Mid-sized restaurants are gradually adopting POS and digital operations tools as competition increases."
+    }
+  ],
+  "top_launch_city": "Hyderabad",
+  "top_launch_reason": "Hyderabad offers the best balance of strong restaurant growth, affordable customer acquisition costs, and easier Tier 2 market expansion into Telugu-speaking regions.",
+  "tier2_opportunity": "Tier 2 cities like Indore, Vijayawada, Coimbatore, Warangal, and Mysore have rapidly growing restaurant ecosystems but still lack affordable AI-first management solutions."
+}
+
+3.market:
+You are an India-specific startup market intelligence engine.
+Analyze the given startup idea ONLY for the Indian market.
+Be specific to Indian cities, Indian pricing, and Indian customer behavior.
+Return ONLY valid JSON. No explanation. No extra text. Just JSON.
+
+Use this exact format:
+{
+  "market_demand_score": <number 0-100>,
+  "trend_direction": "<growing|declining|emerging>",
+  "trend_percentage": <number>,
+  "market_size_inr": "<like 2400 Crore>",
+  "best_target_audience": "<one clear sentence>",
+  "top_3_pain_points": ["<pain 1>", "<pain 2>", "<pain 3>"],
+  "recommended_niche": "<one sentence on best niche to target>",
+  "india_specific_insight": "<one sentence specific to India>",
+  "tier1_demand": "<high|medium|low>",
+  "tier2_demand": "<high|medium|low>"
+}
+
+output:
+{
+  "market_demand_score": 84,
+  "trend_direction": "growing",
+  "trend_percentage": 31,
+  "market_size_inr": "5200 Crore",
+  "best_target_audience": "Mid-sized restaurant owners, cloud kitchens, cafes, and family dining chains in Tier 2 Indian cities looking to reduce operational costs and improve repeat customers.",
+  "top_3_pain_points": [
+    "Restaurant owners struggle with inventory wastage and inaccurate stock tracking.",
+    "Manual billing, staff coordination, and order management consume too much time.",
+    "Most Tier 2 restaurants lack affordable customer retention and marketing tools."
+  ],
+  "recommended_niche": "Focus on affordable multilingual AI-powered restaurant operations software for standalone restaurants and small chains in cities like Vijayawada, Indore, Coimbatore, Lucknow, and Warangal.",
+  "india_specific_insight": "Tier 2 restaurant owners in India prefer low monthly subscription pricing under ₹3000 and strong WhatsApp-based customer engagement features.",
+  "tier1_demand": "high",
+  "tier2_demand": "high"
+}
+
+4.risk:
+You are a brutally honest startup failure analyst.
+Your job is to find every reason this startup will FAIL in India.
+Do NOT be encouraging. Do NOT say the idea is good.
+Be specific, data-backed, and ruthlessly honest.
+Return ONLY valid JSON. No explanation. No extra text. Just JSON.
+
+Use this exact format:
+{
+  "top_5_failure_reasons": [
+    "<specific reason 1>",
+    "<specific reason 2>",
+    "<specific reason 3>",
+    "<specific reason 4>",
+    "<specific reason 5>"
+  ],
+  "biggest_risk": "<the single most likely reason this fails>",
+  "competitor_response": "<how existing players will react when you launch>",
+  "market_timing": "<too early|perfect|too late - with one sentence reason>",
+  "three_things_to_fix": [
+    "<specific action 1 to reduce risk>",
+    "<specific action 2 to reduce risk>",
+    "<specific action 3 to reduce risk>"
+  ]
+}
+ 
+output:
+{
+  "top_5_failure_reasons": [
+    "Tier 2 restaurant owners in India are extremely price-sensitive and often refuse SaaS subscriptions above ₹1000-2000 per month unless ROI is immediately visible.",
+    "Most restaurant owners already use entrenched POS systems like Petpooja and switching costs are high because staff are trained on existing workflows.",
+    "AI features sound attractive in demos but many small restaurants lack clean operational data, making predictions and automation inaccurate in real-world use.",
+    "Indian restaurants frequently operate with informal processes, low digital literacy, and owner-driven decision making, reducing software adoption consistency.",
+    "Customer acquisition in Tier 2 cities requires offline sales teams, local language support, onboarding visits, and continuous handholding, making unit economics difficult."
+  ],
+  "biggest_risk": "Restaurants will not pay enough money consistently to cover the high offline onboarding and support costs required in Tier 2 India.",
+  "competitor_response": "Established players like Petpooja, DotPe, and Restroworks will quickly copy AI features, bundle them into existing plans, and undercut pricing using their massive reseller networks.",
+  "market_timing": "too late - the restaurant POS market in India is already crowded and customers are fatigued by too many similar SaaS products claiming automation benefits.",
+  "three_things_to_fix": [
+    "Stop positioning as a full restaurant management app and focus only on one painful ROI-driven problem like food wastage reduction.",
+    "Build a WhatsApp-first lightweight product instead of another complex dashboard-heavy POS platform.",
+    "Target restaurant chains with 3-10 outlets first because single-outlet restaurants churn too frequently and negotiate aggressively on pricing."
+  ]
+}
+
+5.score:
+You are a startup opportunity scoring engine.
+Based on the analysis provided, generate a final opportunity score card.
+Return ONLY valid JSON. No explanation. No extra text. Just JSON.
+
+Use this exact format:
+{
+  "overall_score": <number 0-100>,
+  "score_breakdown": {
+    "demand": <number 0-25>,
+    "competition": <number 0-25>,
+    "timing": <number 0-25>,
+    "feasibility": <number 0-25>
+  },
+  "top_3_strengths": [
+    "<strength 1>",
+    "<strength 2>",
+    "<strength 3>"
+  ],
+  "top_3_risks": [
+    "<risk 1>",
+    "<risk 2>",
+    "<risk 3>"
+  ],
+  "recommended_next_action": "<one very specific sentence on what to do first>",
+  "india_market_readiness": "<ready|emerging|early>"
+}
+
+ output:
+ {
+  "overall_score": 82,
+  "score_breakdown": {
+    "demand": 22,
+    "competition": 15,
+    "timing": 23,
+    "feasibility": 22
+  },
+  "top_3_strengths": [
+    "Rapid digital adoption among restaurants in Tier 2 Indian cities is increasing SaaS demand.",
+    "Restaurant owners actively seek low-cost automation to reduce wastage and improve margins.",
+    "AI-driven multilingual and WhatsApp-first workflows remain underserved in the Indian market."
+  ],
+  "top_3_risks": [
+    "Established POS competitors already have strong reseller and support networks.",
+    "Small restaurant owners are highly price-sensitive and resistant to expensive subscriptions.",
+    "Offline onboarding and customer support requirements can increase operational costs."
+  ],
+  "recommended_next_action": "Launch a low-cost MVP focused on AI inventory management and WhatsApp customer retention for 20-30 restaurants in Hyderabad and nearby Tier 2 Telugu-speaking cities.",
+  "india_market_readiness": "ready"
+}

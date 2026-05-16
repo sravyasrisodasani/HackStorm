@@ -1,0 +1,103 @@
+{
+  "idea": "AI tutor platform for BTech students in India",
+  "market": {
+    "market_demand_score": 89,
+    "trend_direction": "growing",
+    "trend_percentage": 42,
+    "market_size_inr": "8500 Crore",
+    "best_target_audience": "BTech students in Tier 2 and Tier 3 engineering colleges who cannot afford premium coaching",
+    "top_3_pain_points": [
+      "College professors teach theory but students need practical coding and placement prep",
+      "Premium platforms like Byjus cost 50000 rupees which most students cannot afford",
+      "Generic content does not match their specific syllabus or placement requirements"
+    ],
+    "recommended_niche": "Affordable AI tutor for Tier 2 engineering college students focused on placement preparation",
+    "india_specific_insight": "India has 10000 plus engineering colleges but only top 100 have good placement support leaving millions of students without guidance",
+    "tier1_demand": "medium",
+    "tier2_demand": "high"
+  },
+  "competitors": {
+    "competitors": [
+      {
+        "name": "Unacademy",
+        "pricing": "1500 rupees per month",
+        "target_customer": "Competitive exam aspirants and college students",
+        "strength": "Large content library and known brand",
+        "weakness": "Not personalized, same content for everyone, not placement focused"
+      },
+      {
+        "name": "Byjus",
+        "pricing": "4000 rupees per month",
+        "target_customer": "School and college students from affluent families",
+        "strength": "Strong brand and comprehensive content",
+        "weakness": "Too expensive, controversial reputation, not AI powered"
+      },
+      {
+        "name": "GeeksforGeeks",
+        "pricing": "Free to 999 rupees per month",
+        "target_customer": "CS and IT students for coding practice",
+        "strength": "Strong coding content and free tier",
+        "weakness": "No personalization, no AI tutor, no guidance on what to study"
+      }
+    ],
+    "saturation_level": "medium",
+    "saturation_explanation": "Many platforms exist but none offer truly personalized AI tutoring for placement preparation at affordable prices",
+    "market_gap": "No affordable AI-powered personalized tutor exists that adapts to each student's weak areas and targets their specific placement goals",
+    "differentiation_opportunity": "Build an AI tutor that knows each student's weak subjects, their target companies, and creates a personalized daily study plan"
+  },
+  "risklens": {
+    "top_5_failure_reasons": [
+      "Students are price sensitive and will use free resources like YouTube instead of paying",
+      "Byjus and Unacademy have massive marketing budgets and will outspend you on acquisition",
+      "Content creation is expensive and you need thousands of hours of quality material",
+      "Student retention is low as motivation drops after initial enthusiasm",
+      "Placement outcomes are hard to guarantee and students will blame the platform if they do not get placed"
+    ],
+    "biggest_risk": "Student price sensitivity combined with free alternatives like YouTube makes monetization extremely difficult in early stages",
+    "competitor_response": "Unacademy will add AI features to their existing platform within 6 months of your launch using their existing content library",
+    "market_timing": "perfect - post COVID digital learning adoption is permanent and AI in education is the hottest trend in 2025 and 2026",
+    "three_things_to_fix": [
+      "Start with one specific niche like GATE preparation or Amazon placement prep instead of all BTech students",
+      "Build a free tier with genuine value to acquire users before monetizing",
+      "Partner with 5 engineering colleges directly to get bulk student access and credibility"
+    ]
+  },
+  "scorecard": {
+    "overall_score": 86,
+    "score_breakdown": {
+      "demand": 24,
+      "competition": 18,
+      "timing": 24,
+      "feasibility": 20
+    },
+    "top_3_strengths": [
+      "Massive market of 4 million BTech students graduating every year in India",
+      "Perfect timing with AI in education being the hottest investment theme",
+      "Clear pain point that students feel every single day"
+    ],
+    "top_3_risks": [
+      "Extreme price sensitivity among student demographic",
+      "High content creation cost to build quality learning material",
+      "Established players will copy AI features quickly"
+    ],
+    "recommended_next_action": "Partner with 3 Tier 2 engineering colleges in Hyderabad or Pune and offer free access to 500 students to prove learning outcomes before charging",
+    "india_market_readiness": "ready"
+  },
+  "heatmap": {
+    "city_demand": [
+      {"city": "Hyderabad", "state": "Telangana", "demand_score": 92, "reason": "Highest concentration of engineering colleges and IT companies for placement"},
+      {"city": "Bangalore", "state": "Karnataka", "demand_score": 90, "reason": "Tech hub with massive demand for placement preparation"},
+      {"city": "Pune", "state": "Maharashtra", "demand_score": 88, "reason": "Large engineering college ecosystem with strong placement culture"},
+      {"city": "Chennai", "state": "Tamil Nadu", "demand_score": 85, "reason": "Strong engineering tradition with high placement competition"},
+      {"city": "Coimbatore", "state": "Tamil Nadu", "demand_score": 82, "reason": "Dense engineering college cluster with underserved students"},
+      {"city": "Nagpur", "state": "Maharashtra", "demand_score": 78, "reason": "Many engineering colleges with limited placement support"},
+      {"city": "Bhopal", "state": "Madhya Pradesh", "demand_score": 75, "reason": "Growing engineering education hub with low quality placement prep"},
+      {"city": "Jaipur", "state": "Rajasthan", "demand_score": 72, "reason": "Large student population with limited access to quality coaching"},
+      {"city": "Lucknow", "state": "Uttar Pradesh", "demand_score": 70, "reason": "Massive student population with very limited quality resources"},
+      {"city": "Visakhapatnam", "state": "Andhra Pradesh", "demand_score": 68, "reason": "Growing tech ecosystem with underserved engineering students"}
+    ],
+    "top_launch_city": "Hyderabad",
+    "top_launch_reason": "Hyderabad has the highest density of engineering colleges combined with major IT companies for placement making it the perfect pilot city",
+    "tier2_opportunity": "Tier 2 cities like Coimbatore, Nagpur, and Bhopal have thousands of engineering students with zero access to quality AI-powered placement preparation"
+  }
+}

@@ -1,0 +1,103 @@
+{
+  "idea": "AI app for restaurant management targeting small restaurants in Tier 2 Indian cities",
+  "market": {
+    "market_demand_score": 84,
+    "trend_direction": "growing",
+    "trend_percentage": 34,
+    "market_size_inr": "2400 Crore",
+    "best_target_audience": "Small restaurants with 5 to 50 seats in Tier 2 cities like Vizag, Nagpur, Indore",
+    "top_3_pain_points": [
+      "Order management is done on paper causing errors and delays",
+      "No affordable software exists under 500 rupees per month",
+      "Inventory waste of 20 to 30 percent due to no tracking system"
+    ],
+    "recommended_niche": "Budget AI for small restaurants under 500 rupees per month in Tier 2 cities",
+    "india_specific_insight": "Tier 2 cities have 0 percent software penetration vs 12 percent in Tier 1 cities",
+    "tier1_demand": "high",
+    "tier2_demand": "medium"
+  },
+  "competitors": {
+    "competitors": [
+      {
+        "name": "Petpooja",
+        "pricing": "1200 rupees per month",
+        "target_customer": "Medium to large restaurants in Tier 1 cities",
+        "strength": "Feature rich with strong brand recognition",
+        "weakness": "Too expensive for small restaurants, complex interface"
+      },
+      {
+        "name": "POSist",
+        "pricing": "2500 rupees per month",
+        "target_customer": "Restaurant chains and large outlets",
+        "strength": "Enterprise grade features and integrations",
+        "weakness": "Way too expensive and complex for small owners"
+      },
+      {
+        "name": "Dotpe",
+        "pricing": "800 rupees per month",
+        "target_customer": "Small to medium restaurants in Tier 1",
+        "strength": "Affordable and simple",
+        "weakness": "No AI features, limited to basic POS functions"
+      }
+    ],
+    "saturation_level": "medium",
+    "saturation_explanation": "Market exists in Tier 1 but Tier 2 is completely untouched by any player",
+    "market_gap": "No affordable AI-powered solution exists for small restaurants in Tier 2 cities under 500 rupees per month",
+    "differentiation_opportunity": "Build the first budget AI restaurant tool specifically designed for Tier 2 city small restaurant owners"
+  },
+  "risklens": {
+    "top_5_failure_reasons": [
+      "Sales cycle for small restaurant owners is 3 to 6 months due to trust issues with new software",
+      "Cash payment culture in Tier 2 creates strong digital resistance among older restaurant owners",
+      "Petpooja will launch a budget tier product the moment you reach 1000 users",
+      "Customer acquisition cost through direct sales will exceed lifetime value in early months",
+      "High churn rate as small restaurants open and close frequently in India"
+    ],
+    "biggest_risk": "Customer acquisition cost will exceed lifetime value in the first 12 months making growth unsustainable",
+    "competitor_response": "Petpooja will aggressively drop prices and launch a lite version targeting your exact segment once you gain traction",
+    "market_timing": "perfect - digital adoption in Tier 2 cities is accelerating rapidly post COVID and UPI adoption is at all time high",
+    "three_things_to_fix": [
+      "Partner with food aggregators like Swiggy and Zomato for distribution instead of direct sales to reduce acquisition cost",
+      "Start with exactly 10 restaurants in one city before expanding to prove unit economics",
+      "Build WhatsApp-first interface to reduce digital resistance among non-tech-savvy restaurant owners"
+    ]
+  },
+  "scorecard": {
+    "overall_score": 81,
+    "score_breakdown": {
+      "demand": 22,
+      "competition": 20,
+      "timing": 22,
+      "feasibility": 17
+    },
+    "top_3_strengths": [
+      "Massive underserved market in Tier 2 cities with zero direct competition",
+      "Clear and painful customer problem that costs restaurants money every day",
+      "Perfect market timing with rising digital adoption and UPI penetration"
+    ],
+    "top_3_risks": [
+      "Long sales cycle of 3 to 6 months will strain early stage cash flow",
+      "Digital resistance among older restaurant owners in Tier 2 cities",
+      "Petpooja will respond aggressively once you reach meaningful scale"
+    ],
+    "recommended_next_action": "Partner with Swiggy or Zomato for distribution and onboard 10 restaurants in Hyderabad as a pilot before any expansion",
+    "india_market_readiness": "ready"
+  },
+  "heatmap": {
+    "city_demand": [
+      {"city": "Hyderabad", "state": "Telangana", "demand_score": 87, "reason": "High restaurant density with growing IT workforce and low software adoption"},
+      {"city": "Bangalore", "state": "Karnataka", "demand_score": 85, "reason": "Massive food service market but already has some competition"},
+      {"city": "Pune", "state": "Maharashtra", "demand_score": 82, "reason": "Large student and IT population driving food service demand"},
+      {"city": "Visakhapatnam", "state": "Andhra Pradesh", "demand_score": 79, "reason": "Fast growing Tier 2 city with zero software penetration in restaurants"},
+      {"city": "Indore", "state": "Madhya Pradesh", "demand_score": 76, "reason": "Known as food capital of India with thousands of small restaurants"},
+      {"city": "Nagpur", "state": "Maharashtra", "demand_score": 74, "reason": "Central India hub with growing restaurant scene and no competition"},
+      {"city": "Jaipur", "state": "Rajasthan", "demand_score": 71, "reason": "Tourism driven food economy with high restaurant density"},
+      {"city": "Lucknow", "state": "Uttar Pradesh", "demand_score": 68, "reason": "Famous food culture with thousands of small eateries"},
+      {"city": "Coimbatore", "state": "Tamil Nadu", "demand_score": 65, "reason": "Industrial city with growing food service sector"},
+      {"city": "Bhopal", "state": "Madhya Pradesh", "demand_score": 62, "reason": "Emerging Tier 2 market with very low digital adoption"}
+    ],
+    "top_launch_city": "Hyderabad",
+    "top_launch_reason": "Hyderabad has the perfect combination of high restaurant density, growing tech-savvy population, and zero direct competition in the budget segment",
+    "tier2_opportunity": "Tier 2 cities like Visakhapatnam, Indore, and Nagpur represent a completely untapped market with 0 percent software penetration and high growth potential"
+  }
+}
