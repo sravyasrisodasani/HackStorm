@@ -652,4 +652,5 @@ StartupIQ. AI McKinsey for every Indian founder.
 
 Built with love for SummerSaaS 2026 AI Hackathon by Centle Group"# StartupAI" 
 #   S t a r t u p A I  
+ #   S t a r t u p A I  
  
