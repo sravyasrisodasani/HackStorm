@@ -1,0 +1,50 @@
+{
+  "restaurant_idea": {
+    "verdict": "SIMILAR_EXISTS",
+    "verdict_explanation": "Restaurant management software exists in India but affordable AI-first solutions for Tier 2 cities with WhatsApp integration do not exist yet.",
+    "existing_products": [
+      {
+        "name": "Petpooja",
+        "country": "India",
+        "url": "petpooja.com",
+        "similarity_percentage": 60,
+        "how_different_you_can_be": "Petpooja targets Tier 1 cities at high prices. Your angle is AI-first, WhatsApp-native, under 500 rupees for Tier 2 cities."
+      },
+      {
+        "name": "Toast POS",
+        "country": "Global (USA)",
+        "url": "toasttab.com",
+        "similarity_percentage": 45,
+        "how_different_you_can_be": "Toast is built for American restaurants. India needs a product built for Indian restaurant culture, cash payments, and regional languages."
+      }
+    ],
+    "originality_score": 72,
+    "unique_angle_available": "No product exists that combines AI inventory prediction, WhatsApp CRM, and multilingual support specifically for small Tier 2 Indian restaurants under 500 rupees per month.",
+    "recommendation": "BUILD_IT",
+    "recommendation_reason": "The market exists and is proven but your specific angle of AI plus WhatsApp plus Tier 2 pricing is genuinely unoccupied."
+  },
+  "edtech_idea": {
+    "verdict": "SIMILAR_EXISTS",
+    "verdict_explanation": "EdTech platforms exist in India but truly personalized AI tutoring for BTech placement preparation at affordable prices does not exist.",
+    "existing_products": [
+      {
+        "name": "Unacademy",
+        "country": "India",
+        "url": "unacademy.com",
+        "similarity_percentage": 55,
+        "how_different_you_can_be": "Unacademy is one-size-fits-all content. Your angle is AI that adapts to each student specifically."
+      },
+      {
+        "name": "Coursera",
+        "country": "Global (USA)",
+        "url": "coursera.org",
+        "similarity_percentage": 40,
+        "how_different_you_can_be": "Coursera is global generic content. You are India-specific, placement-focused, and AI-personalized."
+      }
+    ],
+    "originality_score": 68,
+    "unique_angle_available": "No platform exists that uses AI to analyze a specific student weak areas and auto-generate a personalized daily study plan targeting their specific target companies.",
+    "recommendation": "BUILD_IT",
+    "recommendation_reason": "Personalized AI tutoring for Indian BTech placement is a real gap that no existing player has properly filled."
+  }
+}
