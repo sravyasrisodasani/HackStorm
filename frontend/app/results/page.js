@@ -9,6 +9,7 @@ import RiskLens from "../../components/RiskLens"
 import ScoreCard from "../../components/ScoreCard"
 import IndiaHeatmap from "../../components/IndiaHeatmap"
 import OriginalityCheck from "../../components/OriginalityCheck"
+import ChatBot from "../../components/ChatBot"
 
 const API = process.env.NEXT_PUBLIC_API_URL || "http://localhost:8000"
 
@@ -152,6 +153,9 @@ function ResultsContent() {
         </div>
         <div className="text-gray-500 text-sm truncate max-w-xs hidden md:block">{idea}</div>
         <div className="flex items-center gap-2">
+          <a href="/investors" className="text-xs bg-purple-900/40 hover:bg-purple-800/40 text-purple-400 border border-purple-800 px-3 py-1.5 rounded-lg transition-all">
+            💼 Find Investors
+          </a>
           <div className="w-2 h-2 bg-green-400 rounded-full pulse-dot" />
           <span className="text-green-400 text-xs">Analysis Complete</span>
         </div>
@@ -221,6 +225,8 @@ function ResultsContent() {
       <div className="text-center py-6 text-gray-700 text-xs">
         Source: Web Intelligence + AI Synthesis | All insights are advisory recommendations only. Not financial or legal advice.
       </div>
+
+      <ChatBot idea={idea} />
     </div>
   )
 }
