@@ -47,7 +47,12 @@ export default function ChatBot({ idea }) {
       {/* Floating Button */}
       <motion.button
         onClick={() => setOpen(!open)}
-        className="fixed bottom-6 right-6 w-14 h-14 bg-blue-600 hover:bg-blue-700 text-white rounded-full shadow-2xl flex items-center justify-center text-2xl z-50 transition-all"
+        className="fixed bottom-6 right-6 w-14 h-14 text-white rounded-full shadow-2xl flex items-center justify-center text-2xl z-50 transition-all"
+        style={{
+          background: "rgba(0,100,255,0.3)",
+          border: "1px solid rgba(0,150,255,0.6)",
+          boxShadow: "0 0 20px rgba(0,150,255,0.3), 0 0 40px rgba(0,100,255,0.1)"
+        }}
         whileHover={{ scale: 1.1 }}
         whileTap={{ scale: 0.9 }}
       >
@@ -61,16 +66,22 @@ export default function ChatBot({ idea }) {
             initial={{ opacity: 0, y: 20, scale: 0.95 }}
             animate={{ opacity: 1, y: 0, scale: 1 }}
             exit={{ opacity: 0, y: 20, scale: 0.95 }}
-            className="fixed bottom-24 right-6 w-80 md:w-96 bg-gray-900 border border-gray-700 rounded-2xl shadow-2xl z-50 flex flex-col overflow-hidden"
-            style={{ height: "500px" }}
+            className="fixed bottom-24 right-6 w-80 md:w-96 rounded-2xl shadow-2xl z-50 flex flex-col overflow-hidden"
+            style={{
+              height: "500px",
+              background: "rgba(5,5,20,0.95)",
+              border: "1px solid rgba(0,150,255,0.3)",
+              boxShadow: "0 0 40px rgba(0,100,255,0.15), inset 0 0 40px rgba(0,0,0,0.5)",
+              backdropFilter: "blur(20px)"
+            }}
           >
             {/* Header */}
-            <div className="bg-gradient-to-r from-blue-900/50 to-purple-900/50 border-b border-gray-700 px-4 py-3 flex items-center gap-3">
-              <div className="w-8 h-8 bg-blue-600 rounded-full flex items-center justify-center text-sm">🤖</div>
+            <div className="px-4 py-3 flex items-center gap-3" style={{borderBottom: "1px solid rgba(0,150,255,0.2)", background: "rgba(0,50,100,0.2)"}}>
+              <div className="w-8 h-8 rounded-full flex items-center justify-center text-sm" style={{background: "rgba(0,100,255,0.3)", border: "1px solid rgba(0,150,255,0.5)", boxShadow: "0 0 10px rgba(0,150,255,0.3)"}}>🤖</div>
               <div>
                 <p className="text-white font-semibold text-sm">AI Business Advisor</p>
-                <p className="text-green-400 text-xs flex items-center gap-1">
-                  <span className="w-1.5 h-1.5 bg-green-400 rounded-full inline-block" />
+                <p className="text-xs flex items-center gap-1 text-neon-green">
+                  <span className="w-1.5 h-1.5 rounded-full inline-block bg-green-400" style={{boxShadow: "0 0 5px #00ff64"}} />
                   Online
                 </p>
               </div>

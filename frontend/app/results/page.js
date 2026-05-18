@@ -93,7 +93,7 @@ function ResultsContent() {
   )
 
   if (!done) return (
-    <div className="min-h-screen bg-gray-950 flex items-center justify-center p-6">
+    <div className="min-h-screen hero-bg grid-overlay flex items-center justify-center p-6">
       <div className="w-full max-w-md">
         <div className="text-center mb-8">
           <div className="text-4xl mb-3">🚀</div>
@@ -107,23 +107,28 @@ function ResultsContent() {
               key={step.id}
               initial={{ opacity: 0.3 }}
               animate={{ opacity: i <= currentStep ? 1 : 0.3 }}
-              className="flex items-center gap-3 p-3 rounded-xl bg-gray-900 border border-gray-800"
+              className="flex items-center gap-3 p-3 rounded-xl"
+              style={{
+                background: i === currentStep ? "rgba(0,50,100,0.3)" : "rgba(10,10,30,0.5)",
+                border: i === currentStep ? "1px solid rgba(0,150,255,0.4)" : "1px solid rgba(100,100,255,0.1)",
+                boxShadow: i === currentStep ? "0 0 15px rgba(0,150,255,0.1)" : "none"
+              }}
             >
               <span className="text-xl">{step.icon}</span>
-              <span className={`text-sm flex-1 ${i < currentStep ? "text-green-400" : i === currentStep ? "text-white" : "text-gray-600"}`}>
+              <span className={`text-sm flex-1 ${i < currentStep ? "text-neon-green" : i === currentStep ? "text-neon-blue" : "text-gray-600"}`}>
                 {step.label}
               </span>
-              {i < currentStep && <span className="text-green-400 text-sm">✓</span>}
+              {i < currentStep && <span className="text-neon-green text-sm">✓</span>}
               {i === currentStep && (
-                <div className="w-4 h-4 border-2 border-blue-500 border-t-transparent rounded-full animate-spin" />
+                <div className="w-4 h-4 border-2 border-cyan-400 border-t-transparent rounded-full animate-spin" />
               )}
             </motion.div>
           ))}
         </div>
 
-        <div className="mt-6 h-2 bg-gray-800 rounded-full overflow-hidden">
+        <div className="mt-6 h-2 rounded-full overflow-hidden" style={{background: "rgba(100,100,255,0.1)"}}>
           <motion.div
-            className="h-full bg-gradient-to-r from-blue-600 to-purple-600 rounded-full"
+            className="h-full rounded-full loading-bar"
             animate={{ width: `${((currentStep + 1) / STEPS.length) * 100}%` }}
             transition={{ duration: 0.5 }}
           />
@@ -143,9 +148,10 @@ function ResultsContent() {
   ]
 
   return (
-    <div className="min-h-screen bg-gray-950">
+    <div className="min-h-screen hero-bg grid-overlay">
       {/* Top Bar */}
-      <div className="border-b border-gray-800 px-6 py-4 flex items-center justify-between">
+      <div className="px-6 py-4 flex items-center justify-between" style={{borderBottom: "1px solid rgba(100,100,255,0.15)", background: "rgba(5,5,16,0.8)", backdropFilter: "blur(10px)"}}>
+
         <div className="flex items-center gap-3">
           <button onClick={() => router.push("/")} className="text-gray-500 hover:text-white transition-colors">← Back</button>
           <div className="w-px h-4 bg-gray-700" />
@@ -166,16 +172,16 @@ function ResultsContent() {
         <motion.div
           initial={{ opacity: 0, y: -10 }}
           animate={{ opacity: 1, y: 0 }}
-          className="bg-gradient-to-r from-blue-900/30 to-purple-900/30 border-b border-blue-800/30 px-6 py-3 flex items-center justify-between"
+          className="px-6 py-3 flex items-center justify-between"
+          style={{background: "rgba(0,50,100,0.2)", borderBottom: "1px solid rgba(0,150,255,0.2)", backdropFilter: "blur(10px)"}}
         >
           <span className="text-gray-400 text-sm">Overall Opportunity Score</span>
           <div className="flex items-center gap-2">
-            <span className="text-3xl font-bold text-white">{data.scorecard.overall_score}</span>
+            <span className="text-3xl font-bold text-neon-blue">{data.scorecard.overall_score}</span>
             <span className="text-gray-500">/100</span>
-            <span className={`text-xs px-2 py-1 rounded-full ${
-              data.scorecard.overall_score >= 70 ? "bg-green-900 text-green-400" :
-              data.scorecard.overall_score >= 50 ? "bg-yellow-900 text-yellow-400" :
-              "bg-red-900 text-red-400"
+            <span className={`text-xs px-2 py-1 rounded-full badge-neon ${
+              data.scorecard.overall_score >= 70 ? "badge-green" :
+              data.scorecard.overall_score >= 50 ? "badge-orange" : "badge-red"
             }`}>
               {data.scorecard.india_market_readiness?.toUpperCase()}
             </span>
@@ -184,7 +190,7 @@ function ResultsContent() {
       )}
 
       {/* Tabs */}
-      <div className="border-b border-gray-800 px-6 overflow-x-auto">
+      <div className="px-6 overflow-x-auto" style={{borderBottom: "1px solid rgba(100,100,255,0.15)", background: "rgba(5,5,16,0.6)"}}>
         <div className="flex gap-1 min-w-max">
           {TABS.map(tab => (
             <button
@@ -192,7 +198,7 @@ function ResultsContent() {
               onClick={() => setActiveTab(tab.id)}
               className={`px-4 py-3 text-sm font-medium transition-all border-b-2 whitespace-nowrap ${
                 activeTab === tab.id
-                  ? "border-blue-500 text-blue-400"
+                  ? "border-cyan-400 text-cyan-400 tab-active"
                   : "border-transparent text-gray-500 hover:text-gray-300"
               }`}
             >
@@ -222,7 +228,7 @@ function ResultsContent() {
         </AnimatePresence>
       </div>
 
-      <div className="text-center py-6 text-gray-700 text-xs">
+      <div className="text-center py-6 text-xs" style={{color: "rgba(100,100,150,0.5)"}}>
         Source: Web Intelligence + AI Synthesis | All insights are advisory recommendations only. Not financial or legal advice.
       </div>
 
