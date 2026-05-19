@@ -1,0 +1,95 @@
+[33mcommit 4298d222215146e5a1de57d36536db2a3cf98d74[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m
+Author: sravyasrisodasani <sravyasrisodasani@gmail.com>
+Date:   Tue May 19 00:43:34 2026 +0530
+
+    Final README
+
+[33mcommit d0eef5978bfa9163a054981c5e0b34f51df8941d[m
+Author: sravyasrisodasani <sravyasrisodasani@gmail.com>
+Date:   Tue May 19 00:42:57 2026 +0530
+
+    Final README for judges
+
+[33mcommit 0b6d9318a3b2afb1148606750a9d2171a88c2add[m
+Author: sravyasrisodasani <sravyasrisodasani@gmail.com>
+Date:   Mon May 18 11:08:52 2026 +0530
+
+    Downgrade Vercel config to version 2 for dashboard import
+
+[33mcommit baafcf5d64a6e2a4d9b4075d69c11aba15c8fe1b[m
+Author: sravyasrisodasani <sravyasrisodasani@gmail.com>
+Date:   Mon May 18 11:04:08 2026 +0530
+
+    Add experimentalServices mapping for Vercel monorepo deployment
+
+[33mcommit f57dbddb4420b821dd3de897e5b473abce727f9d[m
+Author: sravyasrisodasani <sravyasrisodasani@gmail.com>
+Date:   Mon May 18 10:53:52 2026 +0530
+
+    Add Vercel multi-service deployment configuration
+
+[33mcommit cf8a543eaa3fc7e347db79d8c868bc95ef2ad72a[m
+Author: sravyasrisodasani <sravyasrisodasani@gmail.com>
+Date:   Mon May 18 10:39:48 2026 +0530
+
+    Update .gitignore to ignore env files
+
+[33mcommit b8aaa0ae7290f1e09fa5c23d48785f85782b243b[m
+Author: sravyasrisodasani <sravyasrisodasani@gmail.com>
+Date:   Mon May 18 10:08:06 2026 +0530
+
+    cleanup gitignore
+
+[33mcommit 5ffc8500ae74116a8eb685bfa7a07eac9b00df52[m
+Author: sravyasrisodasani <sravyasrisodasani@gmail.com>
+Date:   Mon May 18 00:26:38 2026 +0530
+
+    first commit
+
+[33mcommit 5e2e5d8f180ffaa808800f9b460b08eccf073294[m
+Author: sravyasrisodasani <sravyasrisodasani@gmail.com>
+Date:   Mon May 18 00:24:07 2026 +0530
+
+    first commit
+
+[33mcommit d71380d2830409d50b7b1ba88fab3c4b43091396[m
+Author: sravyasrisodasani <sravyasrisodasani@gmail.com>
+Date:   Mon May 18 00:21:28 2026 +0530
+
+    added email lists
+
+[33mcommit 5704a71bf65c82a0669229d7b748082d672cc3c9[m
+Author: sravyasrisodasani <sravyasrisodasani@gmail.com>
+Date:   Sun May 17 22:38:45 2026 +0530
+
+    final output
+
+[33mcommit 8ca8f4c04544aebc1ba9a09aa3895deffec7d143[m
+Author: sravyasrisodasani <sravyasrisodasani@gmail.com>
+Date:   Sun May 17 22:38:04 2026 +0530
+
+    first commit
+
+[33mcommit 375e6f888c3cec4c3091efbf79c933fc26fb7bac[m
+Author: sravyasrisodasani <sravyasrisodasani@gmail.com>
+Date:   Sun May 17 15:04:10 2026 +0530
+
+    Complete StartupIQ AI - 6 features including Originality Check
+
+[33mcommit c774a6d5dc25b3ac2c63bcbf915f607088452b4e[m
+Author: sravyasrisodasani <sravyasrisodasani@gmail.com>
+Date:   Sat May 16 21:48:47 2026 +0530
+
+    done person3
+
+[33mcommit 31a97a3c23afc5360af87553ae4e3988ad143d27[m
+Author: sravyasrisodasani <sravyasrisodasani@gmail.com>
+Date:   Sat May 16 21:47:53 2026 +0530
+
+    clean setup no secrets
+
+[33mcommit 756eaf9f782912e86e754c5875b99d3abaf2e81d[m
+Author: sravyasrisodasani <sravyasrisodasani@gmail.com>
+Date:   Sat May 16 20:54:32 2026 +0530
+
+    first commit
